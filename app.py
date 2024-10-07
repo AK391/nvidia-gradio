@@ -1,7 +1,8 @@
 import gradio as gr
-import openai_gradio
+import nvidia_gradio  # Changed from openai_gradio to nvidia_gradio
+
 
 gr.load(
-    name='gpt-4-turbo',
-    src=openai_gradio.registry,
+    name='meta/llama-3.1-405b-instruct',  # Updated to use a NVIDIA NIM model
+    src=nvidia_gradio.registry,
 ).launch()

@@ -1,10 +1,10 @@
 import gradio as gr
-import openai_gradio
+import nvidia_gradio  # Changed from anthropic_gradio to nvidia_gradio
 
 with gr.Blocks() as demo:
-    with gr.Tab("GPT-4-turbo"):
-        gr.load('gpt-4-turbo', src=openai_gradio.registry)
-    with gr.Tab("GPT-3.5-turbo"):
-        gr.load('gpt-3.5-turbo', src=openai_gradio.registry)
+    with gr.Tab("Llama 2 70B"):
+        gr.load('meta/llama2-70b-chat-hf', src=nvidia_gradio.registry)
+    with gr.Tab("Mixtral 8x7B"):
+        gr.load('mistralai/mixtral-8x7b-instruct-v0.1', src=nvidia_gradio.registry)
 
 demo.launch()
