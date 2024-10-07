@@ -62,7 +62,7 @@ gr.load(
 ).launch()
 ```
 
-![ChatInterface with customizations](chatinterface_with_customization.png)
+![ChatInterface with customizations](chatinterface_custom.png)
 
 # Composition
 
