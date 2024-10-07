@@ -91,8 +91,8 @@ The `nvidia-gradio` Python library has two dependencies: `openai` and `gradio`. 
 |-------|----------------|---------------|-------|
 | meta/llama-3.1-405b-instruct | 4096 | Varies | - |
 | mistralai/mixtral-8x7b-instruct-v0.1 | 32768 | Varies | - |
-| meta/llama2-70b-chat-hf | 4096 | Varies | - |
-| anthropic/claude-3-opus-20240229 | 200000 | Varies | - |
+| meta / llama-3.2-3b-instruct | 4096 | Varies | - |
+| meta / llama-3.1-8b-instruct | 200000 | Varies | - |
 
 -------
 
