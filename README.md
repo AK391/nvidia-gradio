@@ -4,13 +4,22 @@ is a Python package that makes it very easy for developers to create machine lea
 
 # Installation
 
-You can install `nvidia-gradio` directly using pip:
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/AK391/nvidia-gradio.git
+   ```
 
-```bash
-pip install nvidia-gradio
-```
+2. Navigate into the folder that you cloned this repo into:
+   ```bash
+   cd nvidia-gradio
+   ```
 
-That's it! 
+3. Install this package:
+   ```bash
+   pip install -e .
+   ```
+
+That's it!
 
 # Basic Usage
 
