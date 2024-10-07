@@ -1,10 +1,10 @@
 import gradio as gr
-import openai_gradio
+import nvidia_gradio  
 
 gr.load(
-    name='gpt-4-turbo',
-    src=openai_gradio.registry,
-    title='OpenAI-Gradio Integration',
-    description="Chat with gpt-4-turbo model.",
+    name='meta/llama-3.1-405b-instruct',  
+    src=nvidia_gradio.registry,
+    title='NVIDIA NIM-Gradio Integration',
+    description="Chat with NVIDIA's NIM LLaMA 3.1 405B Instruct model.",
     examples=["Explain quantum gravity to a 5-year old.", "How many R are there in the word Strawberry?"]
 ).launch()
